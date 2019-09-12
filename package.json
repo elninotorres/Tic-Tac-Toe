@@ -6,14 +6,24 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "openzeppelin-solidity": "^2.2.0",
     "solc": "^0.5.2",
     "solc-js": "^0.5.2",
-    "truffle-hdwallet-provider": "^1.0.10"
+    "truffle-hdwallet-provider": "^1.0.10",
+    "web3": "^1.0.0-beta.37",
+    "truffle-contract": "^1.1.11"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
 }

@@ -1,0 +1,7 @@
+node_modules/
+ethereum/build/
+mnemonic
+build/
+coverage/
+coverage.json
+result.txt

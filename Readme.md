@@ -17,3 +17,9 @@ run npm run dev to run the server
 
 Goto https://www.myetherwallet.com after deploying to rinkeby network.
 Take the contract address and abi of tictactoe.json and paste in details provided to interfere with the contract.
+
+
+#Testing
+
+For testing run ganache in one terminal with --gasLimit=30000000000
+truffle test in another terminal
